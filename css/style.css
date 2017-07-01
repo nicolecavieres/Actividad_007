@@ -1,0 +1,299 @@
+/*Para todo*/
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+.clearfix:before , .clearfix:after{
+	content:"";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2,
+ .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+ .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, 
+ .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+ .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
+ .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+ .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, 
+ .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, 
+ .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, 
+ .col-xs-7, .col-xs-8, .col-xs-9{
+ 	padding:0;
+ }
+ .row{
+ 	margin:0;
+ }
+.container{
+padding: 1vh;
+}
+/*Header*/
+header{
+	background: url('../imagenes/fondo.jpeg') no-repeat right center; 
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+header img{
+	width: 20vh;
+	padding-top: 5.5vh;
+	padding-left: 2vh;
+}
+
+
+h1{
+	color:white;
+	font-family:'Asap', sans-serif;
+	font-size: 7.3vh;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 1%;
+	font-weight: 600;
+	margin-top: 4vh;
+	margin-bottom: 2vh;
+
+}
+.botones{
+	height: auto;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 3vh;
+	font-size: 3vh;
+}
+.celeste{
+	background-color: #4d99d9;
+	height: auto;
+	border-radius: 1.1vh;
+	padding: 1.5vh 3vh;
+	margin-right: 1vh;
+}
+.celeste:hover{
+	background-color: #337ab7;
+	color:white;
+	text-decoration: none;
+}
+.verde{
+	background-color: #5cb85c;
+	height: auto;
+	border-radius: 1.1vh;
+	padding: 1.5vh 6vh;
+}
+.verde:hover{
+	background-color: #509a50;
+	color:white;
+	text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.botones p{
+
+	font-size: 3vh;
+	margin:0;
+	line-height: 2.7;
+}
+.parrafo{
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color:white;
+	font-size: 2.5vh;
+	line-height: 1.3;
+}
+
+
+
+/*Nav*/
+nav{
+
+	margin-top: 7.8vh;
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding-left:1vh;
+	line-height: 0.6;
+}
+li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.4);
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 2.5vh;
+	padding-left: 5vh;
+}
+li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+ul{
+	float: right;
+	padding-right: 2vh;
+}
+
+/*Sección Personas*/
+section.personas{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color:black;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+
+}
+
+h2{
+	text-transform: uppercase;
+	padding-top: 3vh;
+	font-weight: bold;
+	font-size: 3.7vh;
+}
+
+
+.informacion p, .personas p{
+	font-size: 2.5vh;
+	padding: 1vh 5vh;
+}
+
+
+
+/*Sección Información*/
+section.informacion{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	height: auto;
+	background: url('../imagenes/concrete.png');
+	border-top : solid #cccccc 4px;
+	border-bottom: solid #cccccc 4px;
+}
+
+.informacion p{
+	margin: 5vh 0;
+}
+.informacion a{
+	padding:1.5vh 7vh;
+}
+
+
+
+
+/*Sección Contacto*/
+section.contacto{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.contacto p{
+	padding: 0;
+	margin:0;
+}
+
+h3, h4{
+	padding-bottom: 2%;
+	font-weight: bold;
+}
+h3{
+	margin-top: 7vh;
+}
+.mail{
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+.mail a{
+	color: #337ab7;
+	padding-bottom: 5vh;
+}
+.formulario{
+	width: 50%;
+	float: left;
+}
+
+.mail p, .formulario p{
+	font-size: 2.5vh;
+}
+
+
+
+input{
+	height: 5.5vh;
+	border-radius: 1.1vh;
+	border: solid #B8B8B8 0.2vh;
+	font-size: 1em;
+	padding: 0 1%;
+	margin-top: 3%;
+}
+#textoForm{
+	width: 50%;
+}
+#botonForm{
+	width: 13%;
+	background-color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+#botonForm:hover{
+	background: url('../imagenes/concrete.png');
+}
+
+
+
+/*Footer*/
+footer{
+	height: auto;
+	background-color: #2E2E2E;
+	margin-top: 6vh;
+}
+
+.fin p{
+	color: white;
+	font-family:'Asap', sans-serif;
+	text-transform: uppercase;
+	padding: 2vh;
+	margin:0;
+	line-height: 1.8;
+	font-size: 2.6vh;
+}
+
+
+
+
+
+/*celulares-tablets*/
+@media (max-width: 768px) {
+	h1{
+		font-size: 6vh;
+	}
+	li a{
+		padding-left: 0;
+	}
+	.mail{
+		width: 100%;
+		text-align: center;
+	}
+	.formulario{
+		width: 100%;
+		text-align: center;
+	}
+	#textoForm{
+		width: 97%;
+	}
+	#botonForm{
+		width: 30%
+	}
+	.fin{
+		text-align: center;
+	}
+}
